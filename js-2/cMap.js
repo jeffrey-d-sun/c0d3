@@ -22,7 +22,5 @@ const solution = () => {
   }
 }
 
-solution()
-const arr = [1, 2, 3]
-const res = arr.cMap((num) => num + 1)
-console.log(res) // [2, 3, 4]
+solution();
+[1, 2, 3].cMap((num) => console.log(num + 1))
